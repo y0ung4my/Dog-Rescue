@@ -1,19 +1,24 @@
+body {
+  background-color:thistle;
+  font-family: sans-serif;
+}
+
 img {
-  float: left;
+  margin: auto;
+  border: 10px solid cornflowerblue;
 }
 
 h1 {
-
+  text-align: center;
 }
 
-h2 {
-
+.column {
+  margin: 20px;
+  padding: 20px;
+  width: 30%;
+  float: left;
+  font-family: serif;
+  overflow: auto;
+  border: 10px solid cornflowerblue;
 }
 
-ul {
-
-}
-
-body {
-  background-image: -moz-linear-gradient();
-}
