@@ -3,13 +3,16 @@ body {
   font-family: sans-serif;
 }
 
-img {
-  margin: auto;
-  border: 10px solid cornflowerblue;
-}
-
 h1 {
   text-align: center;
+}
+
+img {
+  border: 10px solid cornflowerblue;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 10px;
 }
 
 .column {
@@ -20,5 +23,11 @@ h1 {
   font-family: serif;
   overflow: auto;
   border: 10px solid cornflowerblue;
+  column-width: 20%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
